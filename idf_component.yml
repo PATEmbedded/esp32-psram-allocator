@@ -1,0 +1,5 @@
+version: "1.0.0"
+description: "C++17 allocators that place STL containers and objects in ESP32 external PSRAM"
+url: "https://github.com/PATEmbedded/esp32-psram-allocator"
+dependencies:
+  idf: ">=4.4"

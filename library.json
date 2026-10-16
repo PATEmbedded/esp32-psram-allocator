@@ -1,0 +1,25 @@
+{
+  "name": "esp32-psram-allocator",
+  "version": "1.0.0",
+  "description": "C++17 allocators that place STL containers and objects in ESP32 external PSRAM",
+  "keywords": ["esp32", "psram", "spiram", "allocator", "memory", "stl"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PATEmbedded/esp32-psram-allocator.git"
+  },
+  "authors": [
+    {
+      "name": "Pourya Afshintabar",
+      "url": "https://github.com/PATEmbedded",
+      "maintainer": true
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/PATEmbedded/esp32-psram-allocator",
+  "frameworks": ["arduino", "espidf"],
+  "platforms": ["espressif32"],
+  "headers": ["esp32_psram_allocator.h"],
+  "export": {
+    "exclude": ["test", ".github", "examples/*/*/.pio", "examples/*/*/build"]
+  }
+}

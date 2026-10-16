@@ -1,0 +1,2 @@
+# The example needs a module with PSRAM, for example ESP32-WROVER or ESP32-S3-WROOM-1 N8R2.
+CONFIG_SPIRAM=y
