@@ -2,7 +2,7 @@
 
 ## 1.0.0 (2026-10-16)
 
-First release as a standalone library. It replaces the earlier single-header `stdpsram` code.
+First release as a standalone library.
 
 - `psram::allocator` with the `external_only` and `prefer_external` policies
 - Aliases for the standard containers and strings, with a hash for `psram::string` keys
